@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "ColorPalette Extractor",
+  "version": "1.0",
+  "description": "Easily extract and copy colors from any image by pasting a link or uploading an image. Perfect for designers and developers to streamline their workflow and enhance their design projects",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": ["scripting", "tabs", "activeTab"],
+  "host_permissions": ["https://*/*", "http://*/*"],
+  "icons": {
+    "16": "wheel.png",
+    "32": "wheel.png"
+  }
+}
